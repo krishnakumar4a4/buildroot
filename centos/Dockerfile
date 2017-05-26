@@ -5,7 +5,7 @@ FROM centos:7
 MAINTAINER krishna kumar thokala
 
 #Installing dependent packages 
-RUN yum install -y make which gcc* nurses-devel flex bison unzip make perl file patch wget rsync bc git bzip2 perl-devel perl-data-dumper perl-Thread-Queue
+RUN yum install -y make which gcc* nurses-devel flex bison unzip make perl file patch wget rsync bc git bzip2 perl-devel perl-Data-Dumper perl-Thread-Queue
 
 #Getting buildroot image
 RUN curl -O https://buildroot.uclibc.org/downloads/buildroot-2017.02.2.tar.bz2

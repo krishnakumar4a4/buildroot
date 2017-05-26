@@ -11,4 +11,4 @@ RUN yum install -y make which gcc* nurses-devel flex bison unzip make perl file 
 RUN curl -O https://buildroot.uclibc.org/downloads/buildroot-2017.02.2.tar.bz2
 
 #Untar buildroot image
-#RUN tar -xzf buildroot-2017.02.2.tar.bz2
+RUN tar -xvjf buildroot-2017.02.2.tar.bz2
